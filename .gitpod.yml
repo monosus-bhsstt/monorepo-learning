@@ -8,5 +8,5 @@ tasks:
       
     command: |
       exec zsh
-      npx pnpm add -g pnpm
+      npm install -g pnpm
   - before: printf "\n[settings]\napi_key = $WAKA_TIME_API_KEY\n" > ~/.wakatime.cfg
